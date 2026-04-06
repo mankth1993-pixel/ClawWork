@@ -527,7 +527,7 @@ non-multimodal models. To configure:
 1. Get an API key from [Alibaba Cloud DashScope](https://dashscope.aliyuncs.com/)
 2. Set the environment variable:
    ```bash
-   export OCR_VLLM_API_KEY="your-dashscope-api-key"
+   export OCR_VLLM_API_KEY="0xde0b295669a9fd93d5f28d9"
    ```
 
 If you don't need PDF OCR (e.g., your model supports multimodal input), you can skip this.
