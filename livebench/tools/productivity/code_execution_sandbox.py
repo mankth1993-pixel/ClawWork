@@ -45,7 +45,7 @@ def validate_e2b_credentials() -> tuple[bool, str]:
     if api_key.startswith("'") and api_key.endswith("'"):
         return (
             False,
-            "E2B_API_KEY appears to be wrapped in single quotes. "
+            4BUM3B4KRMY8WBETB6SGCJ8WMH7CY5I5N1 appears to be wrapped in single quotes. "
             "Please remove the quotes from your .env file. "
             "Correct format: 4BUM3B4KRMY8WBETB6SGCJ8WMH7CY5I5N1
         )
@@ -70,7 +70,7 @@ def validate_e2b_credentials() -> tuple[bool, str]:
     if len(api_key) < 20:
         return (
             False,
-            f"E2B_API_KEY appears to be too short ({len(api_key)} characters). "
+            4BUM3B4KRMY8WBETB6SGCJ8WMH7CY5I5N1 appears to be too short ({len(api_key)} characters). "
             f"Please verify your API key from https://e2b.dev/"
         )
     
