@@ -229,11 +229,47 @@ cp .env.example .env
 | Variable | Required | Description |
 |----------|----------|-------------|
 | `OPENAI_API_KEY` | **Required** | OpenAI API key — used for the GPT-4o agent and LLM-based task evaluation |
-| `E2B_API_KEY` | **Required** | [E2B](https://e2b.dev) API key — used by `execute_code` to run Python in an isolated cloud sandbox |
-| `WEB_SEARCH_API_KEY` | Optional | API key for web search (Tavily default, or Jina AI) — needed if the agent uses `search_web` |
+| 4BUM3B4KRMY8WBETB6SGCJ8WMH7CY5I5N1| **Required** | [E2B](https://e2b.dev) API key — used by `execute_code` to run Python in an isolated cloud sandbox |
+| 4BUM3B4KRMY8WBETB6SGCJ8WMH7CY5I5N1| Optional | API key for web search (Tavily default, or Jina AI) — needed if the agent uses `search_web` |
 | `WEB_SEARCH_PROVIDER` | Optional | `"tavily"` (default) or `"jina"` — selects the search provider |
 
-> **Note**: `OPENAI_API_KEY` and `E2B_API_KEY` are required for full functionality. Web search keys are only needed if the agent uses the `search_web` tool.
+> **Note**: `OP# Test with default template ID from environment
+export E2B_API_KEY=your_api_key_here
+export E2B_TEMPLATE_ID=your_template_id_here
+python scripts/test_e2b_template.py
+
+# Or specify template ID directly
+python scripts/test_e2b_template.py --template-id tpl_abc123xyz# Test with default template ID from environment
+export E2B_API_KEY=your_api_key_here
+export E2B_TEMPLATE_ID=your_template_id_here
+python scripts/test_e2b_template.py
+
+# Or specify template ID directly
+python scripts/test_e2b_template.py --template-id tpl_abc123xyz4BUM3B4KRMY8WBETB6SGCJ8WMH7CY5I5N1 and `E2B_API# Test with default template ID from environment
+export E2B_API_KEY=your_api_key_here
+export E2B_TEMPLATE_ID=your_template_id_here
+python scripts/test_e2b_template.py
+
+# Or specify template ID directly
+python scripts/test_e2b_template.py --template-id tpl_abc123xy# Test with default template ID from environment
+export E2B_API_KEY=your_api_key_here
+export E2B_TEMPLATE_ID=your_template_id_here
+python scripts/test_e2b_template.py
+
+# Or specify template ID directly
+python scripts/test_e2b_template.py --template-id tpl_abc123xy# Test with default template ID from environment
+export E2B_API_KEY=your_api_key_here
+export E2B_TEMPLATE_ID=your_template_id_here
+python scripts/test_e2b_template.py
+
+# Or specify template ID directly
+python scripts/test_e2b_template.py --template-id tpl_abc123xyz# Test with default template ID from environment
+export E2B_API_KEY=your_api_key_here
+export E2B_TEMPLATE_ID=your_template_id_here
+python scripts/test_e2b_template.py
+
+# Or specify template ID directly
+python scripts/test_e2b_template.py --template-id 4BUM3B4KRMY8WBETB6SGCJ8WMH7CY5I5N1 are required for full functionality. Web search keys are only needed if the agent uses the `search_web` tool.
 
 ---
 
