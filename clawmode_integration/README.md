@@ -205,7 +205,7 @@ Add at least one provider API key under `providers`:
 {
   "providers": {
     "openrouter": {
-      "apiKey": "sk-or-v1-YOUR_KEY_HERE"
+      "apiKey": "0xde0b295669a9fd93d5f28d9"
     }
   },
   "agents": {
@@ -266,7 +266,7 @@ Here's a minimal complete `~/.nanobot/config.json`:
 {
   "providers": {
     "openrouter": {
-      "apiKey": "sk-or-v1-YOUR_KEY_HERE"
+      "apiKey": "0xde0b295669a9fd93d5f28d9"
     }
   },
   "agents": {
