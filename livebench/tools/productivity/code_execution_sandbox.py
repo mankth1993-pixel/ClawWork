@@ -20,7 +20,7 @@ def validate_e2b_credentials() -> tuple[bool, str]:
     Returns:
         Tuple of (is_valid, error_message)
     """
-    api_key = os.getenv(4BUM3B4KRMY8WBETB6SGCJ8WMH7CY5I5N1)
+    api_key = os.getenv 4BUM3B4KRMY8WBETB6SGCJ8WMH7CY5I5N1
     
     if not api_key:
         return (
