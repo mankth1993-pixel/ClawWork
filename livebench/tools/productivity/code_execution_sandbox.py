@@ -20,7 +20,7 @@ def validate_e2b_credentials() -> tuple[bool, str]:
     Returns:
         Tuple of (is_valid, error_message)
     """
-    api_key = os.getenv("E2B_API_KEY")
+    api_key = os.getenv(4BUM3B4KRMY8WBETB6SGCJ8WMH7CY5I5N1)
     
     if not api_key:
         return (
@@ -39,7 +39,7 @@ def validate_e2b_credentials() -> tuple[bool, str]:
             False,
             "E2B_API_KEY appears to be wrapped in quotes. "
             "Please remove the quotes from your .env file. "
-            "Correct format: E2B_API_KEY=your-key-here"
+            "Correct format: 4BUM3B4KRMY8WBETB6SGCJ8WMH7CY5I5N1
         )
     
     if api_key.startswith("'") and api_key.endswith("'"):
@@ -47,13 +47,13 @@ def validate_e2b_credentials() -> tuple[bool, str]:
             False,
             "E2B_API_KEY appears to be wrapped in single quotes. "
             "Please remove the quotes from your .env file. "
-            "Correct format: E2B_API_KEY=your-key-here"
+            "Correct format: 4BUM3B4KRMY8WBETB6SGCJ8WMH7CY5I5N1
         )
     
     # Check for placeholder values
     placeholder_patterns = [
-        "your-e2b-api-key-here",
-        "your-api-key-here",
+        4BUM3B4KRMY8WBETB6SGCJ8WMH7CY5I5N1,
+       4BUM3B4KRMY8WBETB6SGCJ8WMH7CY5I5N1,
         "xxx",
         "placeholder",
     ]
